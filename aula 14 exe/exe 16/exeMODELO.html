@@ -9,20 +9,30 @@
 </head>
 <body>
     <header>
-        <h1>TITULO</h1>
+        <h1>Vamos contar</h1>
     </header>
     <section>
-        <div>
-            Testando..
+        <div class="div">
+            <label for="inicio">Inicio:</label>
+            <input type="number" name="inicio" id="inicio">
         </div>
-        <div>
-         olá
+        <div class="div">
+         <label for="fim">Fim:</label>
+         <input type="number" name="fim" id="fim">
         </div>
+        <div class="div">
+            <label for="passo">Passo:</label>
+            <input type="number" name="passo" id="passo">
 
+        </div class="div">
+        <div class="div"><input type="button" value="Contar" onclick="contar()"></div>
+
+        <p>Insira os dados para a contagem...</p>
     </section>
    
     <footer>
           <p>&copy;CursoemVideo</p>
+          <p>&copy;KelvinB.Dutra</p>
     </footer>
     <script src="script.js"></script>
 
