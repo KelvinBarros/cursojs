@@ -25,3 +25,10 @@ footer{
      text-align: center;
      font-style:italic
 }
+
+
+#tab{
+    margin-top: 15px;
+    width: 140px;
+    height: 160px;
+}
