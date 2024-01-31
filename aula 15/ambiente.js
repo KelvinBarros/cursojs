@@ -16,12 +16,12 @@ for(let pos=0; pos<num.length; pos++){
     console.log(`a posição ${pos} tem o valor ${num[pos]}`)
 }
 
-/*console.log('---------------------------------------')
+console.log('---------------------------------------')
 console.log('também é possivel fazer o mesmo, de forma diferente')
 
 for(let pos in num){
     console.log(`a posição ${pos} tem o valor ${num[pos]}`)
-}*/
+}
 
 
  let pos = num.indexOf(6)
